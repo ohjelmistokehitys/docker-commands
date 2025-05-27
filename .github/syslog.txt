@@ -1,12 +1,12 @@
 2026-01-01 10:34:08 [INFO] npm: Installing the same dependency 6 times, just in case
-2026-01-01 10:34:16 [CRITICAL] git: Commit message just says 'fix' – classic.
+2026-01-01 10:34:16 [ERROR] git: Commit message just says 'fix' – classic.
 2026-01-01 10:34:06 [WARNING] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 10:34:12 [WARNING] npm: npm audit: abandon all hope
 2026-01-01 10:34:30 [INFO] git: Rebase successful, but you still feel uneasy
 2026-01-01 10:35:00 [NOTICE] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
 2026-01-01 10:34:21 [ERROR] maven: Build failed: unexpected success
 2026-01-01 10:34:56 [NOTICE] smartlightd: Light sensor reports existential darkness
-2026-01-01 10:35:03 [CRITICAL] gradle: Build successful but you feel hollow inside
+2026-01-01 10:35:03 [ERROR] gradle: Build successful but you feel hollow inside
 2026-01-01 10:34:50 [WARNING] smartlightd: Mood lighting synced to Jenkins build status (color: red)
 2026-01-01 10:34:33 [INFO] git: Developer attempted force push to protected branch. Denied.
 2026-01-01 10:35:36 [INFO] git: Rebase successful, but you still feel uneasy
@@ -43,11 +43,11 @@
 2026-01-01 10:34:42 [ERROR] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 10:37:35 [ERROR] npm: Installing the same dependency 6 times, just in case
 2026-01-01 10:37:40 [INFO] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
-2026-01-01 10:40:00 [CRITICAL] kubelet: CrashLoopBackOff reached philosophical limit
+2026-01-01 10:40:00 [ERROR] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 10:37:50 [ERROR] smartlightd: Light sensor reports existential darkness
 2026-01-01 10:37:08 [WARNING] kubelet: Node not ready: network misconfigured
 2026-01-01 10:42:00 [WARNING] maven: POM file missing. Resorting to ancient incantations
-2026-01-01 10:38:54 [CRITICAL] git: Commit message just says 'fix' – classic.
+2026-01-01 10:38:54 [ERROR] git: Commit message just says 'fix' – classic.
 2026-01-01 10:42:20 [INFO] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 10:38:15 [INFO] cron: Midnight cleanup triggered a spiritual reboot
 2026-01-01 10:35:44 [ERROR] git: Commit message just says 'fix' – classic.
@@ -55,7 +55,7 @@
 2026-01-01 10:40:18 [ERROR] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 10:36:45 [INFO] cron: Job "feed-the-office-plant" completed successfully
 2026-01-01 10:39:36 [INFO] maven: POM file missing. Resorting to ancient incantations
-2026-01-01 10:35:54 [CRITICAL] nginx: Reloaded config with 6 typos
+2026-01-01 10:35:54 [ERROR] nginx: Reloaded config with 6 typos
 2026-01-01 10:35:56 [INFO] gradle: Build successful but you feel hollow inside
 2026-01-01 10:43:50 [ERROR] kubelet: Container killed due to OOM – again
 2026-01-01 10:35:00 [ERROR] maven: POM file missing. Resorting to ancient incantations
@@ -64,7 +64,7 @@
 2026-01-01 10:38:12 [ERROR] nginx: Client sent invalid request header: 'GET /admin-plz HTTP/1.1'
 2026-01-01 10:44:40 [ERROR] git: Detached HEAD state entered. Good luck.
 2026-01-01 10:43:45 [INFO] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
-2026-01-01 10:36:12 [CRITICAL] docker: Image "alpine" not found locally, pulling...
+2026-01-01 10:36:12 [ERROR] docker: Image "alpine" not found locally, pulling...
 2026-01-01 10:36:14 [ERROR] smartlightd: Mood lighting synced to Jenkins build status (color: red)
 2026-01-01 10:44:12 [INFO] cron: Midnight cleanup triggered a spiritual reboot
 2026-01-01 10:36:18 [WARNING] toasterd: Energy saver mode activated
@@ -74,7 +74,7 @@
 2026-01-01 10:42:31 [INFO] git: Rebase successful, but you still feel uneasy
 2026-01-01 10:46:20 [ERROR] gradle: Warning: configuration cache is experimental, like your deploy plan
 2026-01-01 10:39:00 [INFO] smartlightd: Mood lighting synced to Jenkins build status (color: red)
-2026-01-01 10:35:16 [CRITICAL] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
+2026-01-01 10:35:16 [ERROR] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
 2026-01-01 10:39:08 [INFO] toasterd: Energy saver mode activated
 2026-01-01 10:44:24 [INFO] cron: Midnight cleanup triggered a spiritual reboot
 2026-01-01 10:36:38 [INFO] git: Rebase successful, but you still feel uneasy
@@ -84,9 +84,9 @@
 2026-01-01 10:45:04 [WARNING] smartlightd: Blink pattern updated to Morse code: HELP
 2026-01-01 10:39:36 [INFO] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
 2026-01-01 10:41:05 [INFO] kubelet: Health checks failing in protest
-2026-01-01 10:48:20 [CRITICAL] cron: Job "feed-the-office-plant" completed successfully
+2026-01-01 10:48:20 [ERROR] cron: Job "feed-the-office-plant" completed successfully
 2026-01-01 10:48:30 [ERROR] fridge: Temperature holding steady at 4°C
-2026-01-01 10:42:48 [CRITICAL] docker: Image pulled: redis:latest
+2026-01-01 10:42:48 [ERROR] docker: Image pulled: redis:latest
 2026-01-01 10:42:54 [INFO] docker: Image "alpine" not found locally, pulling...
 2026-01-01 10:41:30 [ERROR] kubelet: Health checks failing in protest
 2026-01-01 10:38:33 [ERROR] cron: Job skipped due to Mercury retrograde
@@ -96,7 +96,7 @@
 2026-01-01 10:43:30 [INFO] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
 2026-01-01 10:50:00 [ERROR] maven: Build failed: unexpected success
 2026-01-01 10:48:33 [NOTICE] fridge: Auto-defrost complete
-2026-01-01 10:35:38 [CRITICAL] smartlightd: Mood lighting synced to Jenkins build status (color: red)
+2026-01-01 10:35:38 [ERROR] smartlightd: Mood lighting synced to Jenkins build status (color: red)
 2026-01-01 10:43:54 [INFO] sshd: Connection reset by peer
 2026-01-01 10:37:20 [WARNING] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 10:40:44 [ERROR] kubelet: Pod evicted: ran out of patience
@@ -104,12 +104,12 @@
 2026-01-01 10:37:26 [ERROR] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 10:49:36 [WARNING] git: Detached HEAD state entered. Good luck.
 2026-01-01 10:44:30 [ERROR] fridge: Temperature holding steady at 4°C
-2026-01-01 10:37:32 [CRITICAL] npm: npm audit: abandon all hope
+2026-01-01 10:37:32 [ERROR] npm: npm audit: abandon all hope
 2026-01-01 10:46:29 [ERROR] nginx: Client sent invalid request header: 'GET /admin-plz HTTP/1.1'
 2026-01-01 10:43:00 [NOTICE] kubelet: Node not ready: network misconfigured
 2026-01-01 10:43:05 [ERROR] smartlightd: Light sensor reports existential darkness
 2026-01-01 10:45:00 [ERROR] docker: Container "build-runner" restarted unexpectedly
-2026-01-01 10:52:30 [CRITICAL] cron: Job "feed-the-office-plant" completed successfully
+2026-01-01 10:52:30 [ERROR] cron: Job "feed-the-office-plant" completed successfully
 2026-01-01 10:43:20 [NOTICE] fridge: Door open for 43 seconds. Is someone emotionally snacking?
 2026-01-01 10:37:46 [ERROR] docker: Image "alpine" not found locally, pulling...
 2026-01-01 10:51:06 [ERROR] cron: Midnight cleanup triggered a spiritual reboot
@@ -125,17 +125,17 @@
 2026-01-01 10:48:28 [NOTICE] smartlightd: Blink pattern updated to Morse code: HELP
 2026-01-01 10:54:50 [INFO] cron: Job "feed-the-office-plant" completed successfully
 2026-01-01 10:42:24 [ERROR] gradle: Build failed. Please consult the rune stones for guidance.
-2026-01-01 10:44:35 [CRITICAL] docker: Container "build-runner" restarted unexpectedly
+2026-01-01 10:44:35 [ERROR] docker: Container "build-runner" restarted unexpectedly
 2026-01-01 10:36:08 [WARNING] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 10:44:45 [INFO] git: Merge conflict detected in README.md (again)
 2026-01-01 10:36:10 [INFO] git: Developer attempted force push to protected branch. Denied.
-2026-01-01 10:55:50 [CRITICAL] npm: Installing the same dependency 6 times, just in case
-2026-01-01 10:53:48 [CRITICAL] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
+2026-01-01 10:55:50 [ERROR] npm: Installing the same dependency 6 times, just in case
+2026-01-01 10:53:48 [ERROR] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
 2026-01-01 10:51:44 [INFO] npm: Detected 974 vulnerabilities (16 critical) in 1 package
 2026-01-01 10:38:28 [ERROR] nginx: 502 Bad Gateway caused by upstream sadness
-2026-01-01 10:47:30 [CRITICAL] docker: Failed to start container "db"
+2026-01-01 10:47:30 [ERROR] docker: Failed to start container "db"
 2026-01-01 10:54:24 [INFO] nginx: 502 Bad Gateway caused by upstream sadness
-2026-01-01 10:52:16 [CRITICAL] git: Merge conflict detected in README.md (again)
+2026-01-01 10:52:16 [ERROR] git: Merge conflict detected in README.md (again)
 2026-01-01 10:40:54 [INFO] gradle: Build failed. Please consult the rune stones for guidance.
 2026-01-01 10:50:13 [WARNING] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 10:41:00 [INFO] toasterd: Crumb tray nearly full (89%)
@@ -152,14 +152,14 @@
 2026-01-01 10:51:37 [ERROR] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
 2026-01-01 10:56:48 [ERROR] gradle: Build failed. Please consult the rune stones for guidance.
 2026-01-01 10:54:24 [INFO] smartlightd: Ambience set to 'Panic Mode'
-2026-01-01 10:44:16 [CRITICAL] sshd: Connection closed by authenticating user devops
+2026-01-01 10:44:16 [ERROR] sshd: Connection closed by authenticating user devops
 2026-01-01 10:54:40 [WARNING] fridge: Door open for 43 seconds. Is someone emotionally snacking?
 2026-01-01 10:39:12 [NOTICE] fridge: Detected expired hummus in bottom drawer
 2026-01-01 10:36:37 [WARNING] cron: Midnight cleanup triggered a spiritual reboot
 2026-01-01 10:36:38 [ERROR] kubelet: Container killed due to OOM – again
 2026-01-01 10:47:15 [WARNING] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 10:55:20 [WARNING] git: Commit message just says 'fix' – classic.
-2026-01-01 11:00:50 [CRITICAL] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
+2026-01-01 11:00:50 [ERROR] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
 2026-01-01 11:01:00 [INFO] npm: npm audit: abandon all hope
 2026-01-01 10:44:52 [INFO] kubelet: Container killed due to OOM – again
 2026-01-01 10:53:08 [WARNING] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
@@ -170,7 +170,7 @@
 2026-01-01 10:36:49 [NOTICE] toasterd: Crumb tray nearly full (89%)
 2026-01-01 10:59:30 [WARNING] git: Merge conflict detected in README.md (again)
 2026-01-01 10:45:24 [NOTICE] nginx: 502 Bad Gateway caused by upstream sadness
-2026-01-01 11:02:40 [CRITICAL] docker: Image "alpine" not found locally, pulling...
+2026-01-01 11:02:40 [ERROR] docker: Image "alpine" not found locally, pulling...
 2026-01-01 11:02:50 [WARNING] cron: Midnight cleanup triggered a spiritual reboot
 2026-01-01 10:48:30 [INFO] fridge: Door open for 43 seconds. Is someone emotionally snacking?
 2026-01-01 10:54:25 [INFO] kubelet: Node not ready: network misconfigured
@@ -179,12 +179,12 @@
 2026-01-01 10:48:50 [INFO] cron: Midnight cleanup triggered a spiritual reboot
 2026-01-01 10:36:59 [INFO] cron: Job skipped due to Mercury retrograde
 2026-01-01 10:55:00 [ERROR] sshd: Connection reset by peer
-2026-01-01 10:37:01 [CRITICAL] fridge: Auto-defrost complete
+2026-01-01 10:37:01 [ERROR] fridge: Auto-defrost complete
 2026-01-01 10:52:12 [WARNING] smartlightd: Blink pattern updated to Morse code: HELP
 2026-01-01 10:37:03 [WARNING] toasterd: Crumb tray nearly full (89%)
 2026-01-01 10:49:20 [WARNING] fridge: Temperature holding steady at 4°C
 2026-01-01 10:49:25 [INFO] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
-2026-01-01 11:05:00 [CRITICAL] kubelet: Health checks failing in protest
+2026-01-01 11:05:00 [ERROR] kubelet: Health checks failing in protest
 2026-01-01 11:02:03 [WARNING] git: Commit message just says 'fix' – classic.
 2026-01-01 11:05:20 [INFO] nginx: Reloaded config with 6 typos
 2026-01-01 10:52:54 [ERROR] gradle: Build successful but you feel hollow inside
@@ -210,12 +210,12 @@
 2026-01-01 10:51:25 [WARNING] docker: Image pulled: redis:latest
 2026-01-01 10:55:00 [INFO] maven: Build failed: unexpected success
 2026-01-01 10:44:33 [NOTICE] toasterd: Crumb tray nearly full (89%)
-2026-01-01 10:48:08 [CRITICAL] fridge: Detected expired hummus in bottom drawer
+2026-01-01 10:48:08 [ERROR] fridge: Detected expired hummus in bottom drawer
 2026-01-01 11:09:30 [WARNING] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
 2026-01-01 10:58:58 [NOTICE] git: Detached HEAD state entered. Good luck.
 2026-01-01 10:41:10 [ERROR] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
 2026-01-01 11:06:24 [WARNING] docker: Failed to start container "db"
-2026-01-01 10:55:42 [CRITICAL] gradle: Warning: configuration cache is experimental, like your deploy plan
+2026-01-01 10:55:42 [ERROR] gradle: Warning: configuration cache is experimental, like your deploy plan
 2026-01-01 10:37:38 [INFO] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
 2026-01-01 11:10:30 [INFO] smartlightd: Blink pattern updated to Morse code: HELP
 2026-01-01 10:48:40 [WARNING] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
@@ -223,7 +223,7 @@
 2026-01-01 10:37:42 [WARNING] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 11:11:10 [INFO] docker: Container "build-runner" restarted unexpectedly
 2026-01-01 10:41:28 [WARNING] kubelet: Pod evicted: ran out of patience
-2026-01-01 10:49:00 [CRITICAL] docker: Image "alpine" not found locally, pulling...
+2026-01-01 10:49:00 [ERROR] docker: Image "alpine" not found locally, pulling...
 2026-01-01 11:00:22 [INFO] cron: Job "office-coffee-iot-keepalive" ran successfully
 2026-01-01 11:11:50 [ERROR] kubelet: Node not ready: network misconfigured
 2026-01-01 10:37:48 [INFO] fridge: Door open for 43 seconds. Is someone emotionally snacking?
@@ -261,7 +261,7 @@
 2026-01-01 10:47:00 [INFO] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
 2026-01-01 10:38:21 [INFO] maven: Snapshot version expired in real life
 2026-01-01 11:00:12 [INFO] docker: Failed to start container "db"
-2026-01-01 11:13:27 [CRITICAL] npm: npm audit: abandon all hope
+2026-01-01 11:13:27 [ERROR] npm: npm audit: abandon all hope
 2026-01-01 11:00:24 [ERROR] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 11:00:30 [ERROR] nginx: 502 Bad Gateway caused by upstream sadness
 2026-01-01 11:13:54 [NOTICE] docker: Container "webapp" exited with code 139
@@ -294,15 +294,15 @@
 2026-01-01 10:53:32 [INFO] docker: Container "webapp" exited with code 139
 2026-01-01 10:48:42 [NOTICE] gradle: Build successful but you feel hollow inside
 2026-01-01 10:43:50 [WARNING] kubelet: Health checks failing in protest
-2026-01-01 11:23:20 [CRITICAL] cron: Midnight cleanup triggered a spiritual reboot
+2026-01-01 11:23:20 [ERROR] cron: Midnight cleanup triggered a spiritual reboot
 2026-01-01 10:38:57 [WARNING] gradle: Warning: configuration cache is experimental, like your deploy plan
 2026-01-01 10:48:54 [WARNING] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 11:18:51 [INFO] fridge: Fridge sent motivational quote to coffee machine
 2026-01-01 11:04:00 [INFO] npm: Detected 974 vulnerabilities (16 critical) in 1 package
-2026-01-01 10:39:01 [CRITICAL] fridge: Fridge sent motivational quote to coffee machine
+2026-01-01 10:39:01 [ERROR] fridge: Fridge sent motivational quote to coffee machine
 2026-01-01 10:49:06 [WARNING] sshd: Connection reset by peer
 2026-01-01 10:44:06 [ERROR] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
-2026-01-01 10:49:12 [CRITICAL] cron: Job "office-coffee-iot-keepalive" ran successfully
+2026-01-01 10:49:12 [ERROR] cron: Job "office-coffee-iot-keepalive" ran successfully
 2026-01-01 11:24:50 [INFO] nginx: Serving cat.gif with maximum efficiency
 2026-01-01 11:09:42 [NOTICE] gradle: Task :compileJustOneThing took 14 minutes
 2026-01-01 11:04:42 [WARNING] fridge: Fridge sent motivational quote to coffee machine
@@ -327,12 +327,12 @@
 2026-01-01 10:44:52 [WARNING] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
 2026-01-01 10:55:48 [INFO] smartlightd: Blink pattern updated to Morse code: HELP
 2026-01-01 11:23:12 [INFO] docker: Failed to start container "db"
-2026-01-01 11:17:52 [CRITICAL] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
+2026-01-01 11:17:52 [ERROR] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
 2026-01-01 10:56:00 [ERROR] npm: npm audit: abandon all hope
 2026-01-01 10:45:02 [INFO] fridge: Auto-defrost complete
 2026-01-01 11:18:16 [INFO] kubelet: Pod evicted: ran out of patience
 2026-01-01 11:07:18 [ERROR] git: Merge conflict detected in README.md (again)
-2026-01-01 10:39:34 [CRITICAL] npm: Installing the same dependency 6 times, just in case
+2026-01-01 10:39:34 [ERROR] npm: Installing the same dependency 6 times, just in case
 2026-01-01 10:45:10 [NOTICE] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
 2026-01-01 11:24:24 [INFO] kubelet: Container killed due to OOM – again
 2026-01-01 11:30:10 [INFO] git: Developer attempted force push to protected branch. Denied.
@@ -341,7 +341,7 @@
 2026-01-01 11:25:00 [INFO] kubelet: Node not ready: network misconfigured
 2026-01-01 11:30:50 [WARNING] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 10:39:42 [INFO] toasterd: Crumb tray nearly full (89%)
-2026-01-01 11:14:01 [CRITICAL] git: Merge conflict detected in README.md (again)
+2026-01-01 11:14:01 [ERROR] git: Merge conflict detected in README.md (again)
 2026-01-01 11:08:24 [INFO] smartlightd: Mood lighting synced to Jenkins build status (color: red)
 2026-01-01 11:14:15 [INFO] toasterd: Energy saver mode activated
 2026-01-01 11:08:36 [NOTICE] docker: Failed to start container "db"
@@ -350,16 +350,16 @@
 2026-01-01 11:20:32 [INFO] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 11:14:50 [NOTICE] sshd: Connection reset by peer
 2026-01-01 11:09:06 [WARNING] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
-2026-01-01 11:09:12 [CRITICAL] kubelet: CrashLoopBackOff reached philosophical limit
+2026-01-01 11:09:12 [ERROR] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 10:45:46 [ERROR] toasterd: Energy saver mode activated
 2026-01-01 11:33:00 [INFO] gradle: Build successful but you feel hollow inside
 2026-01-01 10:57:40 [INFO] fridge: Auto-defrost complete
-2026-01-01 11:21:28 [CRITICAL] smartlightd: Ambience set to 'Panic Mode'
+2026-01-01 11:21:28 [ERROR] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 11:09:42 [ERROR] docker: Image pulled: redis:latest
 2026-01-01 10:39:58 [INFO] git: Rebase successful, but you still feel uneasy
 2026-01-01 11:03:55 [INFO] cron: Job skipped due to Mercury retrograde
 2026-01-01 10:58:00 [NOTICE] npm: Package 'left-pad' failed to install due to existential crisis
-2026-01-01 10:40:01 [CRITICAL] toasterd: Burned toast detected, notifying Slack
+2026-01-01 10:40:01 [ERROR] toasterd: Burned toast detected, notifying Slack
 2026-01-01 10:58:08 [INFO] toasterd: Burned toast detected, notifying Slack
 2026-01-01 11:28:27 [INFO] toasterd: Crumb tray nearly full (89%)
 2026-01-01 11:28:36 [ERROR] sshd: Connection closed by authenticating user devops
@@ -367,9 +367,9 @@
 2026-01-01 11:10:36 [ERROR] nginx: Reloaded config with 6 typos
 2026-01-01 10:52:21 [ERROR] npm: npm audit: abandon all hope
 2026-01-01 11:04:40 [WARNING] docker: Container "build-runner" restarted unexpectedly
-2026-01-01 11:17:03 [CRITICAL] docker: Container "webapp" exited with code 139
+2026-01-01 11:17:03 [ERROR] docker: Container "webapp" exited with code 139
 2026-01-01 10:58:40 [INFO] smartlightd: Mood lighting synced to Jenkins build status (color: red)
-2026-01-01 11:29:39 [CRITICAL] fridge: Temperature holding steady at 4°C
+2026-01-01 11:29:39 [ERROR] fridge: Temperature holding steady at 4°C
 2026-01-01 10:52:36 [INFO] fridge: Door open for 43 seconds. Is someone emotionally snacking?
 2026-01-01 11:11:18 [NOTICE] nginx: Serving cat.gif with maximum efficiency
 2026-01-01 11:23:52 [INFO] fridge: Detected expired hummus in bottom drawer
@@ -377,7 +377,7 @@
 2026-01-01 11:11:36 [NOTICE] toasterd: Crumb tray nearly full (89%)
 2026-01-01 10:52:51 [INFO] nginx: Restarted gracefully despite internal doubt
 2026-01-01 10:59:12 [WARNING] cron: Job "office-coffee-iot-keepalive" ran successfully
-2026-01-01 10:52:57 [CRITICAL] cron: Job "feed-the-office-plant" completed successfully
+2026-01-01 10:52:57 [ERROR] cron: Job "feed-the-office-plant" completed successfully
 2026-01-01 10:53:00 [WARNING] nginx: Serving cat.gif with maximum efficiency
 2026-01-01 10:59:24 [ERROR] maven: Snapshot version expired in real life
 2026-01-01 10:46:44 [WARNING] nginx: Restarted gracefully despite internal doubt
@@ -398,28 +398,28 @@
 2026-01-01 11:07:05 [WARNING] docker: Failed to start container "db"
 2026-01-01 11:07:10 [INFO] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 11:13:54 [WARNING] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
-2026-01-01 11:34:00 [CRITICAL] kubelet: Health checks failing in protest
-2026-01-01 10:54:03 [CRITICAL] docker: Failed to start container "db"
+2026-01-01 11:34:00 [ERROR] kubelet: Health checks failing in protest
+2026-01-01 10:54:03 [ERROR] docker: Failed to start container "db"
 2026-01-01 10:54:06 [INFO] nginx: Restarted gracefully despite internal doubt
-2026-01-01 11:27:44 [CRITICAL] git: Commit message just says 'fix' – classic.
+2026-01-01 11:27:44 [ERROR] git: Commit message just says 'fix' – classic.
 2026-01-01 11:07:40 [INFO] smartlightd: Light sensor reports existential darkness
 2026-01-01 11:14:30 [INFO] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 10:47:32 [ERROR] kubelet: Container killed due to OOM – again
 2026-01-01 11:41:50 [INFO] nginx: Serving cat.gif with maximum efficiency
-2026-01-01 11:08:00 [CRITICAL] docker: Container "build-runner" restarted unexpectedly
+2026-01-01 11:08:00 [ERROR] docker: Container "build-runner" restarted unexpectedly
 2026-01-01 10:47:38 [INFO] docker: Container "webapp" exited with code 139
 2026-01-01 10:54:30 [INFO] nginx: Restarted gracefully despite internal doubt
-2026-01-01 10:54:33 [CRITICAL] maven: Build failed: unexpected success
+2026-01-01 10:54:33 [ERROR] maven: Build failed: unexpected success
 2026-01-01 11:22:04 [INFO] maven: Build failed: unexpected success
-2026-01-01 11:15:18 [CRITICAL] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
+2026-01-01 11:15:18 [ERROR] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 11:36:06 [INFO] git: Merge conflict detected in README.md (again)
 2026-01-01 11:36:15 [WARNING] sshd: Connection reset by peer
 2026-01-01 11:22:32 [WARNING] gradle: Build failed. Please consult the rune stones for guidance.
 2026-01-01 11:08:45 [ERROR] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 11:36:42 [WARNING] gradle: Task :compileJustOneThing took 14 minutes
 2026-01-01 11:15:54 [ERROR] maven: Build failed: unexpected success
-2026-01-01 11:16:00 [CRITICAL] smartlightd: Night mode activated – devs still at desks
-2026-01-01 11:23:07 [CRITICAL] toasterd: Energy saver mode activated
+2026-01-01 11:16:00 [ERROR] smartlightd: Night mode activated – devs still at desks
+2026-01-01 11:23:07 [ERROR] toasterd: Energy saver mode activated
 2026-01-01 10:55:06 [ERROR] npm: Lockfile is haunted, try deleting node_modules
 2026-01-01 11:09:15 [WARNING] sshd: Connection closed by authenticating user devops
 2026-01-01 11:37:36 [NOTICE] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
@@ -427,7 +427,7 @@
 2026-01-01 11:02:24 [INFO] gradle: Task :compileJustOneThing took 14 minutes
 2026-01-01 10:41:07 [INFO] gradle: Task :compileJustOneThing took 14 minutes
 2026-01-01 11:09:40 [WARNING] git: Merge conflict detected in README.md (again)
-2026-01-01 10:55:27 [CRITICAL] fridge: Auto-defrost complete
+2026-01-01 10:55:27 [ERROR] fridge: Auto-defrost complete
 2026-01-01 11:31:20 [INFO] maven: Build failed: unexpected success
 2026-01-01 11:31:28 [WARNING] git: Rebase successful, but you still feel uneasy
 2026-01-01 10:55:36 [INFO] docker: Failed to start container "db"
@@ -436,18 +436,18 @@
 2026-01-01 10:41:15 [INFO] git: Commit message just says 'fix' – classic.
 2026-01-01 11:10:20 [WARNING] fridge: Fridge sent motivational quote to coffee machine
 2026-01-01 10:55:51 [INFO] sshd: Connection reset by peer
-2026-01-01 10:55:54 [CRITICAL] toasterd: Crumb tray nearly full (89%)
+2026-01-01 10:55:54 [ERROR] toasterd: Crumb tray nearly full (89%)
 2026-01-01 11:25:13 [ERROR] toasterd: Heating element self-test passed
 2026-01-01 10:41:20 [INFO] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 10:41:21 [INFO] nginx: Client sent invalid request header: 'GET /admin-plz HTTP/1.1'
 2026-01-01 10:41:22 [INFO] kubelet: Health checks failing in protest
 2026-01-01 11:10:55 [WARNING] npm: Lockfile is haunted, try deleting node_modules
 2026-01-01 10:56:12 [INFO] docker: Container "build-runner" restarted unexpectedly
-2026-01-01 11:18:30 [CRITICAL] nginx: Restarted gracefully despite internal doubt
+2026-01-01 11:18:30 [ERROR] nginx: Restarted gracefully despite internal doubt
 2026-01-01 10:41:26 [ERROR] git: Merge conflict detected in README.md (again)
 2026-01-01 10:56:21 [NOTICE] toasterd: Burned toast detected, notifying Slack
 2026-01-01 10:48:56 [INFO] maven: Snapshot version expired in real life
-2026-01-01 10:48:58 [CRITICAL] docker: Container "webapp" exited with code 139
+2026-01-01 10:48:58 [ERROR] docker: Container "webapp" exited with code 139
 2026-01-01 11:19:00 [INFO] kubelet: Container killed due to OOM – again
 2026-01-01 10:49:02 [INFO] gradle: Warning: configuration cache is experimental, like your deploy plan
 2026-01-01 11:34:16 [ERROR] cron: Job skipped due to Mercury retrograde
@@ -461,32 +461,32 @@
 2026-01-01 10:49:20 [INFO] smartlightd: Mood lighting synced to Jenkins build status (color: red)
 2026-01-01 11:50:50 [WARNING] docker: Image "alpine" not found locally, pulling...
 2026-01-01 11:12:30 [INFO] cron: Job skipped due to Mercury retrograde
-2026-01-01 11:12:35 [CRITICAL] sshd: Connection reset by peer
+2026-01-01 11:12:35 [ERROR] sshd: Connection reset by peer
 2026-01-01 10:57:12 [WARNING] maven: Snapshot version expired in real life
-2026-01-01 10:49:30 [CRITICAL] maven: Downloaded 64 dependencies you don’t remember requesting
+2026-01-01 10:49:30 [ERROR] maven: Downloaded 64 dependencies you don’t remember requesting
 2026-01-01 11:28:22 [WARNING] smartlightd: Mood lighting synced to Jenkins build status (color: red)
 2026-01-01 10:49:34 [INFO] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
 2026-01-01 11:28:36 [WARNING] maven: Snapshot version expired in real life
 2026-01-01 10:41:49 [ERROR] maven: Snapshot version expired in real life
 2026-01-01 10:49:40 [ERROR] toasterd: Energy saver mode activated
 2026-01-01 11:28:57 [INFO] npm: Lockfile is haunted, try deleting node_modules
-2026-01-01 10:57:36 [CRITICAL] fridge: Auto-defrost complete
+2026-01-01 10:57:36 [ERROR] fridge: Auto-defrost complete
 2026-01-01 11:44:57 [WARNING] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 10:49:48 [WARNING] docker: Container "build-runner" restarted unexpectedly
 2026-01-01 11:37:20 [INFO] nginx: Client sent invalid request header: 'GET /admin-plz HTTP/1.1'
 2026-01-01 11:29:32 [INFO] docker: Container "webapp" exited with code 139
 2026-01-01 11:45:33 [WARNING] npm: Installing the same dependency 6 times, just in case
 2026-01-01 11:45:42 [INFO] docker: Image "alpine" not found locally, pulling...
-2026-01-01 11:05:56 [CRITICAL] nginx: 502 Bad Gateway caused by upstream sadness
+2026-01-01 11:05:56 [ERROR] nginx: 502 Bad Gateway caused by upstream sadness
 2026-01-01 11:06:00 [INFO] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
-2026-01-01 10:50:02 [CRITICAL] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
+2026-01-01 10:50:02 [ERROR] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
 2026-01-01 11:30:14 [WARNING] git: Developer attempted force push to protected branch. Denied.
 2026-01-01 11:46:27 [WARNING] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 10:58:12 [INFO] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 11:38:40 [INFO] npm: Lockfile is haunted, try deleting node_modules
-2026-01-01 11:30:42 [CRITICAL] gradle: Downloaded 128 jars from 14 repositories
+2026-01-01 11:30:42 [ERROR] gradle: Downloaded 128 jars from 14 repositories
 2026-01-01 11:14:35 [INFO] npm: Detected 974 vulnerabilities (16 critical) in 1 package
-2026-01-01 10:42:08 [CRITICAL] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
+2026-01-01 10:42:08 [ERROR] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
 2026-01-01 11:06:36 [INFO] maven: Downloaded 64 dependencies you don’t remember requesting
 2026-01-01 11:47:30 [INFO] nginx: Reloaded config with 6 typos
 2026-01-01 11:47:39 [INFO] toasterd: Heating element self-test passed
@@ -507,7 +507,7 @@
 2026-01-01 10:42:26 [INFO] kubelet: Container killed due to OOM – again
 2026-01-01 11:07:48 [WARNING] toasterd: Energy saver mode activated
 2026-01-01 11:24:48 [INFO] kubelet: Pod evicted: ran out of patience
-2026-01-01 10:42:29 [CRITICAL] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
+2026-01-01 10:42:29 [ERROR] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
 2026-01-01 11:16:30 [INFO] maven: Snapshot version expired in real life
 2026-01-01 11:42:08 [INFO] cron: Job skipped due to Mercury retrograde
 2026-01-01 10:42:32 [INFO] nginx: Client sent invalid request header: 'GET /admin-plz HTTP/1.1'
@@ -528,7 +528,7 @@
 2026-01-01 11:17:55 [ERROR] cron: Job skipped due to Mercury retrograde
 2026-01-01 11:09:12 [WARNING] kubelet: Health checks failing in protest
 2026-01-01 11:53:21 [INFO] git: Merge conflict detected in README.md (again)
-2026-01-01 12:02:20 [CRITICAL] gradle: Warning: configuration cache is experimental, like your deploy plan
+2026-01-01 12:02:20 [ERROR] gradle: Warning: configuration cache is experimental, like your deploy plan
 2026-01-01 11:44:48 [WARNING] docker: Container "webapp" exited with code 139
 2026-01-01 11:44:56 [INFO] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 11:18:25 [WARNING] smartlightd: Ambience set to 'Panic Mode'
@@ -537,7 +537,7 @@
 2026-01-01 11:18:40 [ERROR] nginx: Reloaded config with 6 typos
 2026-01-01 11:27:42 [NOTICE] git: Commit message just says 'fix' – classic.
 2026-01-01 11:27:48 [ERROR] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
-2026-01-01 11:09:56 [CRITICAL] maven: POM file missing. Resorting to ancient incantations
+2026-01-01 11:09:56 [ERROR] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 10:52:00 [INFO] gradle: Build failed. Please consult the rune stones for guidance.
 2026-01-01 10:43:01 [INFO] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 11:01:06 [INFO] smartlightd: Ambience set to 'Panic Mode'
@@ -546,16 +546,16 @@
 2026-01-01 11:55:45 [INFO] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 11:46:48 [INFO] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
 2026-01-01 11:56:03 [INFO] docker: Container "webapp" exited with code 139
-2026-01-01 12:05:20 [CRITICAL] toasterd: Crumb tray nearly full (89%)
+2026-01-01 12:05:20 [ERROR] toasterd: Crumb tray nearly full (89%)
 2026-01-01 11:10:36 [ERROR] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
-2026-01-01 11:29:00 [CRITICAL] fridge: Temperature holding steady at 4°C
-2026-01-01 11:19:55 [CRITICAL] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
+2026-01-01 11:29:00 [ERROR] fridge: Temperature holding steady at 4°C
+2026-01-01 11:19:55 [ERROR] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
 2026-01-01 11:29:12 [INFO] cron: Midnight cleanup triggered a spiritual reboot
 2026-01-01 10:43:13 [INFO] toasterd: Burned toast detected, notifying Slack
 2026-01-01 11:01:42 [INFO] smartlightd: Blink pattern updated to Morse code: HELP
 2026-01-01 11:11:00 [NOTICE] smartlightd: Mood lighting synced to Jenkins build status (color: red)
 2026-01-01 11:48:08 [INFO] gradle: Downloaded 128 jars from 14 repositories
-2026-01-01 11:57:33 [CRITICAL] npm: Package 'left-pad' failed to install due to existential crisis
+2026-01-01 11:57:33 [ERROR] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 11:01:54 [INFO] nginx: Reloaded config with 6 typos
 2026-01-01 11:57:51 [WARNING] maven: Downloaded 64 dependencies you don’t remember requesting
 2026-01-01 11:48:40 [INFO] nginx: Restarted gracefully despite internal doubt
@@ -566,7 +566,7 @@
 2026-01-01 11:58:45 [INFO] toasterd: Crumb tray nearly full (89%)
 2026-01-01 11:11:44 [WARNING] docker: Container "webapp" exited with code 139
 2026-01-01 11:02:21 [INFO] docker: Image "alpine" not found locally, pulling...
-2026-01-01 11:11:52 [CRITICAL] fridge: Auto-defrost complete
+2026-01-01 11:11:52 [ERROR] fridge: Auto-defrost complete
 2026-01-01 11:02:27 [INFO] toasterd: Crumb tray nearly full (89%)
 2026-01-01 11:40:30 [WARNING] kubelet: Node not ready: network misconfigured
 2026-01-01 10:43:31 [INFO] fridge: Temperature holding steady at 4°C
@@ -582,15 +582,15 @@
 2026-01-01 10:43:41 [INFO] gradle: Build failed. Please consult the rune stones for guidance.
 2026-01-01 11:12:48 [INFO] npm: Installing the same dependency 6 times, just in case
 2026-01-01 12:11:10 [ERROR] git: Developer attempted force push to protected branch. Denied.
-2026-01-01 10:43:44 [CRITICAL] fridge: Fridge sent motivational quote to coffee machine
+2026-01-01 10:43:44 [ERROR] fridge: Fridge sent motivational quote to coffee machine
 2026-01-01 11:32:30 [ERROR] maven: Build failed: unexpected success
 2026-01-01 11:52:08 [WARNING] gradle: Task :compileJustOneThing took 14 minutes
 2026-01-01 11:32:42 [INFO] gradle: Build successful but you feel hollow inside
 2026-01-01 11:03:24 [ERROR] git: Commit message just says 'fix' – classic.
-2026-01-01 12:02:21 [CRITICAL] smartlightd: Ambience set to 'Panic Mode'
+2026-01-01 12:02:21 [ERROR] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 11:23:10 [INFO] smartlightd: Light sensor reports existential darkness
 2026-01-01 10:43:51 [INFO] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
-2026-01-01 10:43:52 [CRITICAL] git: Rebase successful, but you still feel uneasy
+2026-01-01 10:43:52 [ERROR] git: Rebase successful, but you still feel uneasy
 2026-01-01 11:43:11 [WARNING] gradle: Build successful but you feel hollow inside
 2026-01-01 11:03:42 [INFO] cron: Job "feed-the-office-plant" completed successfully
 2026-01-01 10:53:50 [NOTICE] docker: Image pulled: redis:latest
@@ -632,10 +632,10 @@
 2026-01-01 11:37:06 [WARNING] git: Commit message just says 'fix' – classic.
 2026-01-01 10:44:32 [INFO] fridge: Door open for 43 seconds. Is someone emotionally snacking?
 2026-01-01 11:37:18 [NOTICE] toasterd: Heating element self-test passed
-2026-01-01 11:16:16 [CRITICAL] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
+2026-01-01 11:16:16 [ERROR] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
 2026-01-01 10:55:10 [NOTICE] kubelet: Node not ready: network misconfigured
 2026-01-01 11:05:48 [INFO] fridge: Door open for 43 seconds. Is someone emotionally snacking?
-2026-01-01 11:16:28 [CRITICAL] nginx: Serving cat.gif with maximum efficiency
+2026-01-01 11:16:28 [ERROR] nginx: Serving cat.gif with maximum efficiency
 2026-01-01 11:27:10 [ERROR] nginx: 502 Bad Gateway caused by upstream sadness
 2026-01-01 11:16:36 [NOTICE] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 11:38:00 [ERROR] kubelet: CrashLoopBackOff reached philosophical limit
@@ -645,14 +645,14 @@
 2026-01-01 11:16:56 [NOTICE] nginx: Serving cat.gif with maximum efficiency
 2026-01-01 12:00:00 [ERROR] sshd: Connection reset by peer
 2026-01-01 11:49:22 [INFO] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
-2026-01-01 11:27:55 [CRITICAL] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
+2026-01-01 11:27:55 [ERROR] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
 2026-01-01 11:28:00 [WARNING] git: Merge conflict detected in README.md (again)
 2026-01-01 11:06:27 [INFO] kubelet: Node not ready: network misconfigured
 2026-01-01 11:39:00 [WARNING] docker: Image "alpine" not found locally, pulling...
 2026-01-01 10:55:42 [NOTICE] cron: Job "office-coffee-iot-keepalive" ran successfully
 2026-01-01 11:39:12 [ERROR] smartlightd: Light sensor reports existential darkness
 2026-01-01 12:22:50 [INFO] maven: POM file missing. Resorting to ancient incantations
-2026-01-01 11:06:42 [CRITICAL] fridge: Temperature holding steady at 4°C
+2026-01-01 11:06:42 [ERROR] fridge: Temperature holding steady at 4°C
 2026-01-01 11:28:35 [ERROR] npm: npm audit: abandon all hope
 2026-01-01 12:23:20 [ERROR] fridge: Temperature holding steady at 4°C
 2026-01-01 11:39:42 [NOTICE] nginx: Reloaded config with 6 typos
@@ -662,7 +662,7 @@
 2026-01-01 11:40:06 [INFO] cron: Job skipped due to Mercury retrograde
 2026-01-01 11:18:08 [INFO] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
 2026-01-01 12:02:24 [ERROR] maven: POM file missing. Resorting to ancient incantations
-2026-01-01 11:18:16 [CRITICAL] git: Rebase successful, but you still feel uneasy
+2026-01-01 11:18:16 [ERROR] git: Rebase successful, but you still feel uneasy
 2026-01-01 10:45:05 [WARNING] smartlightd: Blink pattern updated to Morse code: HELP
 2026-01-01 11:40:36 [INFO] docker: Container "webapp" exited with code 139
 2026-01-01 11:18:28 [ERROR] cron: Job skipped due to Mercury retrograde
@@ -674,9 +674,9 @@
 2026-01-01 12:03:44 [ERROR] git: Commit message just says 'fix' – classic.
 2026-01-01 12:03:52 [ERROR] cron: Job "office-coffee-iot-keepalive" ran successfully
 2026-01-01 12:15:15 [INFO] maven: Snapshot version expired in real life
-2026-01-01 11:30:20 [CRITICAL] fridge: Door open for 43 seconds. Is someone emotionally snacking?
+2026-01-01 11:30:20 [ERROR] fridge: Door open for 43 seconds. Is someone emotionally snacking?
 2026-01-01 10:56:34 [INFO] nginx: Serving cat.gif with maximum efficiency
-2026-01-01 12:04:24 [CRITICAL] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
+2026-01-01 12:04:24 [ERROR] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
 2026-01-01 10:45:19 [INFO] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 10:56:40 [INFO] git: Developer attempted force push to protected branch. Denied.
 2026-01-01 12:27:30 [INFO] sshd: Connection closed by authenticating user devops
@@ -700,15 +700,15 @@
 2026-01-01 12:07:12 [INFO] gradle: Task :compileJustOneThing took 14 minutes
 2026-01-01 12:07:20 [WARNING] gradle: Build successful but you feel hollow inside
 2026-01-01 11:20:44 [INFO] npm: Lockfile is haunted, try deleting node_modules
-2026-01-01 11:32:30 [CRITICAL] smartlightd: Ambience set to 'Panic Mode'
+2026-01-01 11:32:30 [ERROR] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 11:32:35 [INFO] nginx: Reloaded config with 6 typos
 2026-01-01 11:32:40 [WARNING] smartlightd: Night mode activated – devs still at desks
 2026-01-01 11:32:45 [INFO] git: Developer attempted force push to protected branch. Denied.
-2026-01-01 11:21:04 [CRITICAL] toasterd: Heating element self-test passed
+2026-01-01 11:21:04 [ERROR] toasterd: Heating element self-test passed
 2026-01-01 11:09:21 [NOTICE] fridge: Temperature holding steady at 4°C
 2026-01-01 12:20:12 [INFO] npm: Installing the same dependency 6 times, just in case
 2026-01-01 12:32:10 [INFO] npm: Lockfile is haunted, try deleting node_modules
-2026-01-01 11:33:10 [CRITICAL] git: Commit message just says 'fix' – classic.
+2026-01-01 11:33:10 [ERROR] git: Commit message just says 'fix' – classic.
 2026-01-01 11:45:06 [NOTICE] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 11:09:36 [INFO] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 12:09:04 [WARNING] nginx: 502 Bad Gateway caused by upstream sadness
@@ -719,14 +719,14 @@
 2026-01-01 12:09:44 [WARNING] toasterd: Energy saver mode activated
 2026-01-01 12:09:52 [WARNING] toasterd: Energy saver mode activated
 2026-01-01 11:22:00 [WARNING] docker: Image "alpine" not found locally, pulling...
-2026-01-01 11:22:04 [CRITICAL] smartlightd: Night mode activated – devs still at desks
+2026-01-01 11:22:04 [ERROR] smartlightd: Night mode activated – devs still at desks
 2026-01-01 11:34:10 [INFO] npm: npm audit: abandon all hope
 2026-01-01 10:46:03 [ERROR] toasterd: Heating element self-test passed
-2026-01-01 12:10:32 [CRITICAL] smartlightd: Light sensor reports existential darkness
+2026-01-01 12:10:32 [ERROR] smartlightd: Light sensor reports existential darkness
 2026-01-01 11:58:35 [INFO] docker: Container "build-runner" restarted unexpectedly
 2026-01-01 10:46:06 [ERROR] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 10:46:07 [INFO] nginx: Restarted gracefully despite internal doubt
-2026-01-01 12:23:12 [CRITICAL] smartlightd: Night mode activated – devs still at desks
+2026-01-01 12:23:12 [ERROR] smartlightd: Night mode activated – devs still at desks
 2026-01-01 10:46:09 [WARNING] kubelet: Pod evicted: ran out of patience
 2026-01-01 11:10:30 [WARNING] sshd: Connection closed by authenticating user devops
 2026-01-01 11:10:33 [ERROR] nginx: 502 Bad Gateway caused by upstream sadness
@@ -752,7 +752,7 @@
 2026-01-01 12:01:37 [INFO] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 11:36:40 [INFO] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 11:11:39 [NOTICE] smartlightd: Blink pattern updated to Morse code: HELP
-2026-01-01 12:27:06 [CRITICAL] sshd: Connection closed by authenticating user devops
+2026-01-01 12:27:06 [ERROR] sshd: Connection closed by authenticating user devops
 2026-01-01 11:11:45 [NOTICE] nginx: Reloaded config with 6 typos
 2026-01-01 12:02:12 [WARNING] kubelet: Health checks failing in protest
 2026-01-01 10:46:37 [INFO] kubelet: CrashLoopBackOff reached philosophical limit
@@ -763,7 +763,7 @@
 2026-01-01 12:41:00 [INFO] git: Commit message just says 'fix' – classic.
 2026-01-01 12:28:27 [NOTICE] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
 2026-01-01 11:24:56 [INFO] smartlightd: Ambience set to 'Panic Mode'
-2026-01-01 12:03:15 [CRITICAL] docker: Failed to start container "db"
+2026-01-01 12:03:15 [ERROR] docker: Failed to start container "db"
 2026-01-01 11:50:36 [INFO] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 11:37:55 [ERROR] kubelet: Node not ready: network misconfigured
 2026-01-01 12:42:00 [NOTICE] git: Rebase successful, but you still feel uneasy
@@ -788,7 +788,7 @@
 2026-01-01 12:45:10 [INFO] smartlightd: Mood lighting synced to Jenkins build status (color: red)
 2026-01-01 11:39:40 [INFO] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 11:26:36 [ERROR] fridge: Door open for 43 seconds. Is someone emotionally snacking?
-2026-01-01 11:13:30 [CRITICAL] maven: Build failed: unexpected success
+2026-01-01 11:13:30 [ERROR] maven: Build failed: unexpected success
 2026-01-01 10:47:11 [WARNING] npm: Package 'left-pad' failed to install due to existential crisis
 2026-01-01 12:32:48 [ERROR] docker: Container "webapp" exited with code 139
 2026-01-01 10:47:13 [ERROR] kubelet: Health checks failing in protest
@@ -803,11 +803,11 @@
 2026-01-01 11:54:12 [NOTICE] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
 2026-01-01 11:54:18 [INFO] kubelet: Node not ready: network misconfigured
 2026-01-01 11:27:36 [INFO] gradle: Warning: configuration cache is experimental, like your deploy plan
-2026-01-01 12:34:45 [CRITICAL] gradle: Downloaded 128 jars from 14 repositories
+2026-01-01 12:34:45 [ERROR] gradle: Downloaded 128 jars from 14 repositories
 2026-01-01 12:48:20 [INFO] docker: Image pulled: redis:latest
 2026-01-01 10:47:27 [WARNING] maven: POM file missing. Resorting to ancient incantations
 2026-01-01 11:14:24 [INFO] fridge: Auto-defrost complete
-2026-01-01 10:47:29 [CRITICAL] sshd: Connection closed by authenticating user devops
+2026-01-01 10:47:29 [ERROR] sshd: Connection closed by authenticating user devops
 2026-01-01 10:47:30 [WARNING] maven: Build failed: unexpected success
 2026-01-01 12:35:39 [INFO] npm: Installing the same dependency 6 times, just in case
 2026-01-01 11:41:40 [ERROR] npm: Lockfile is haunted, try deleting node_modules
@@ -815,11 +815,11 @@
 2026-01-01 12:36:06 [INFO] kubelet: Pod evicted: ran out of patience
 2026-01-01 12:36:15 [ERROR] fridge: Temperature holding steady at 4°C
 2026-01-01 11:28:24 [INFO] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
-2026-01-01 11:14:51 [CRITICAL] kubelet: CrashLoopBackOff reached philosophical limit
+2026-01-01 11:14:51 [ERROR] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 12:50:20 [INFO] smartlightd: Light sensor reports existential darkness
 2026-01-01 10:47:39 [NOTICE] smartlightd: Night mode activated – devs still at desks
 2026-01-01 11:15:00 [WARNING] kubelet: Pod evicted: ran out of patience
-2026-01-01 11:15:03 [CRITICAL] sshd: Connection closed by authenticating user devops
+2026-01-01 11:15:03 [ERROR] sshd: Connection closed by authenticating user devops
 2026-01-01 12:37:18 [WARNING] cron: Job skipped due to Mercury retrograde
 2026-01-01 12:23:44 [ERROR] docker: Container "webapp" exited with code 139
 2026-01-01 11:28:56 [INFO] cron: Job "office-coffee-iot-keepalive" ran successfully
@@ -828,7 +828,7 @@
 2026-01-01 10:47:47 [INFO] gradle: Build failed. Please consult the rune stones for guidance.
 2026-01-01 11:43:00 [WARNING] smartlightd: Night mode activated – devs still at desks
 2026-01-01 10:47:49 [WARNING] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
-2026-01-01 12:52:20 [CRITICAL] nginx: Restarted gracefully despite internal doubt
+2026-01-01 12:52:20 [ERROR] nginx: Restarted gracefully despite internal doubt
 2026-01-01 12:38:39 [ERROR] kubelet: Health checks failing in protest
 2026-01-01 11:01:44 [NOTICE] smartlightd: Night mode activated – devs still at desks
 2026-01-01 11:15:39 [INFO] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
@@ -848,7 +848,7 @@
 2026-01-01 11:16:21 [ERROR] maven: Build failed: unexpected success
 2026-01-01 10:48:08 [INFO] docker: Image pulled: redis:latest
 2026-01-01 12:41:21 [INFO] sshd: Connection closed by authenticating user devops
-2026-01-01 12:55:40 [CRITICAL] kubelet: Node not ready: network misconfigured
+2026-01-01 12:55:40 [ERROR] kubelet: Node not ready: network misconfigured
 2026-01-01 11:30:44 [INFO] npm: Installing the same dependency 6 times, just in case
 2026-01-01 11:59:12 [WARNING] kubelet: Node not ready: network misconfigured
 2026-01-01 12:41:57 [INFO] docker: Container "webapp" exited with code 139
@@ -857,7 +857,7 @@
 2026-01-01 12:56:40 [ERROR] fridge: Auto-defrost complete
 2026-01-01 11:45:25 [INFO] fridge: Auto-defrost complete
 2026-01-01 10:48:18 [NOTICE] gradle: Warning: configuration cache is experimental, like your deploy plan
-2026-01-01 12:28:32 [CRITICAL] gradle: Build successful but you feel hollow inside
+2026-01-01 12:28:32 [ERROR] gradle: Build successful but you feel hollow inside
 2026-01-01 11:45:40 [INFO] docker: Image "alpine" not found locally, pulling...
 2026-01-01 10:48:21 [WARNING] sshd: Accepted publickey for deploy from 10.0.0.7 port 60214 ssh2
 2026-01-01 11:02:44 [INFO] npm: Installing the same dependency 6 times, just in case
@@ -881,7 +881,7 @@
 2026-01-01 12:16:40 [WARNING] git: Merge conflict detected in README.md (again)
 2026-01-01 12:02:06 [ERROR] kubelet: Health checks failing in protest
 2026-01-01 12:46:18 [WARNING] git: Rebase successful, but you still feel uneasy
-2026-01-01 13:01:10 [CRITICAL] fridge: Door open for 43 seconds. Is someone emotionally snacking?
+2026-01-01 13:01:10 [ERROR] fridge: Door open for 43 seconds. Is someone emotionally snacking?
 2026-01-01 11:32:56 [WARNING] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 11:33:00 [ERROR] smartlightd: Light sensor reports existential darkness
 2026-01-01 12:46:54 [INFO] smartlightd: Blink pattern updated to Morse code: HELP
@@ -896,7 +896,7 @@
 2026-01-01 13:03:10 [INFO] gradle: Task :compileJustOneThing took 14 minutes
 2026-01-01 10:48:56 [ERROR] nginx: 502 Bad Gateway caused by upstream sadness
 2026-01-01 10:48:57 [INFO] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
-2026-01-01 12:18:46 [CRITICAL] nginx: Serving cat.gif with maximum efficiency
+2026-01-01 12:18:46 [ERROR] nginx: Serving cat.gif with maximum efficiency
 2026-01-01 12:03:54 [INFO] kubelet: CrashLoopBackOff reached philosophical limit
 2026-01-01 11:49:00 [INFO] maven: Downloaded 64 dependencies you don’t remember requesting
 2026-01-01 12:19:07 [INFO] smartlightd: Blink pattern updated to Morse code: HELP
@@ -917,7 +917,7 @@
 2026-01-01 12:05:36 [INFO] sshd: Failed password for root from 192.168.0.2 port 54822 ssh2
 2026-01-01 10:49:17 [INFO] smartlightd: Ambience set to 'Panic Mode'
 2026-01-01 11:19:54 [ERROR] nginx: Reloaded config with 6 typos
-2026-01-01 11:04:38 [CRITICAL] maven: Downloaded 64 dependencies you don’t remember requesting
+2026-01-01 11:04:38 [ERROR] maven: Downloaded 64 dependencies you don’t remember requesting
 2026-01-01 11:20:00 [INFO] docker: Container "webapp" exited with code 139
 2026-01-01 12:21:27 [WARNING] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 11:50:50 [INFO] nginx: Client sent invalid request header: 'GET /admin-plz HTTP/1.1'
@@ -935,22 +935,22 @@
 2026-01-01 13:09:40 [INFO] smartlightd: Light sensor reports existential darkness
 2026-01-01 11:05:10 [INFO] smartlightd: Light sensor reports existential darkness
 2026-01-01 12:38:48 [WARNING] kubelet: Pod evicted: ran out of patience
-2026-01-01 12:54:33 [CRITICAL] nginx: 502 Bad Gateway caused by upstream sadness
+2026-01-01 12:54:33 [ERROR] nginx: 502 Bad Gateway caused by upstream sadness
 2026-01-01 12:07:48 [ERROR] cron: Scheduled task 'rotate-logs.sh' executed 3 times too many
 2026-01-01 12:39:12 [WARNING] maven: Build failed: unexpected success
 2026-01-01 11:36:40 [INFO] maven: Downloaded 64 dependencies you don’t remember requesting
 2026-01-01 12:39:28 [WARNING] toasterd: Heating element self-test passed
 2026-01-01 11:05:24 [INFO] cron: Job "feed-the-office-plant" completed successfully
-2026-01-01 11:52:35 [CRITICAL] sshd: Connection closed by authenticating user devops
+2026-01-01 11:52:35 [ERROR] sshd: Connection closed by authenticating user devops
 2026-01-01 11:05:28 [INFO] nginx: Reloaded config with 6 typos
-2026-01-01 12:55:45 [CRITICAL] maven: Build failed: unexpected success
+2026-01-01 12:55:45 [ERROR] maven: Build failed: unexpected success
 2026-01-01 12:08:36 [INFO] kubelet: Health checks failing in protest
 2026-01-01 12:08:42 [INFO] toasterd: Heating element self-test passed
 2026-01-01 12:08:48 [INFO] smartlightd: Night mode activated – devs still at desks
 2026-01-01 12:08:54 [WARNING] fridge: Door open for 43 seconds. Is someone emotionally snacking?
 2026-01-01 12:40:40 [NOTICE] maven: Build failed: unexpected success
 2026-01-01 11:37:24 [ERROR] smartlightd: Ambience set to 'Panic Mode'
-2026-01-01 12:09:12 [CRITICAL] gradle: Build failed. Please consult the rune stones for guidance.
+2026-01-01 12:09:12 [ERROR] gradle: Build failed. Please consult the rune stones for guidance.
 2026-01-01 11:37:32 [NOTICE] maven: Downloaded 64 dependencies you don’t remember requesting
 2026-01-01 12:57:06 [WARNING] git: Detached HEAD state entered. Good luck.
 2026-01-01 11:37:40 [INFO] kubelet: Pod evicted: ran out of patience
@@ -974,7 +974,7 @@
 2026-01-01 10:50:13 [WARNING] sshd: Failed password for invalid user admin from 203.0.113.10 port 55419 ssh2
 2026-01-01 12:11:24 [INFO] docker: Container "build-runner" restarted unexpectedly
 2026-01-01 10:50:15 [INFO] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
-2026-01-01 11:22:48 [CRITICAL] sshd: Connection reset by peer
+2026-01-01 11:22:48 [ERROR] sshd: Connection reset by peer
 2026-01-01 11:55:25 [INFO] docker: Failed to start container "db"
 2026-01-01 10:50:18 [INFO] nginx: Reloaded config with 6 typos
 2026-01-01 11:55:35 [WARNING] git: Commit message just says 'fix' – classic.
@@ -994,7 +994,17 @@
 2026-01-01 11:07:06 [WARNING] sshd: Connection closed by authenticating user devops
 2026-01-01 13:03:06 [INFO] docker: Image pulled: redis:latest
 2026-01-01 13:03:15 [ERROR] docker: Container "webapp" exited with code 139
-2026-01-01 11:23:48 [CRITICAL] gradle: Downloaded 128 jars from 14 repositories
+2026-01-01 11:23:48 [ERROR] gradle: Downloaded 128 jars from 14 repositories
 2026-01-01 12:46:56 [INFO] cron: Job "office-coffee-iot-keepalive" ran successfully
 2026-01-01 13:03:42 [INFO] toasterd: Firmware v2.4.1 loaded. Crumb tray status: optimal
 2026-01-01 11:23:57 [INFO] maven: Artifact ‘hope-1.0.0.jar’ not found in local repository
+2026-01-01 02:04:11 [CRITICAL] npm[4042]: Downloaded 3.2TB of node_modules - disk space critically low
+2026-01-01 02:04:35 [CRITICAL] systemd[1]: Service 'backup-job' failed - no space left on device
+2026-01-01 02:05:00 [CRITICAL] udevd[988]: Refused to initialize USB fan with RGB lighting - insufficient power
+2026-01-01 02:05:07 [CRITICAL] kernel: USB port voltage dropped to 4.1V
+2026-01-01 02:05:50 [CRITICAL] npm[4042]: Retrying failed install - another 1.4TB queued
+2026-01-01 02:06:03 [CRITICAL] kernel: Filesystem mounted read-only - disk full
+2026-01-01 02:06:17 [CRITICAL] powerd[223]: Voltage warning - 6 USB coffee warmers and 2 gaming keyboards detected
+2026-01-01 02:06:44 [CRITICAL] cron[1337]: Scheduled job skipped - unable to write to disk
+2026-01-01 02:07:12 [CRITICAL] kernel: System voltage at 3.9V - initiating shutdown
+2026-01-01 02:07:45 [CRITICAL] systemd[1]: Disk is now full. USBs draining all power. Goodbye, dear server.
