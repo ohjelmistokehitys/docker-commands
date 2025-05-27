@@ -1,0 +1,84 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: List running containers
+      id: list-running-containers
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: List running containers
+        setup-command: ''
+        command: cat list-running-containers.txt
+        input: ''
+        expected-output: syslogs
+        comparison-method: contains
+        timeout: 1
+        max-score: 20
+    - name: List all containers
+      id: list-all-containers
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: List all containers
+        setup-command: ''
+        command: cat list-all-containers.txt
+        input: ''
+        expected-output: syslogs
+        comparison-method: contains
+        timeout: 1
+        max-score: 20
+    - name: Filter and sort logs
+      id: filter-and-sort-logs
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Filter and sort logs
+        setup-command: ''
+        command: cat syslog-critical.txt
+        input: ''
+        expected-output: systemd[1]
+        comparison-method: contains
+        timeout: 1
+        max-score: 20
+    - name: Build the Dockerfile
+      id: build-the-dockerfile
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Build the Dockerfile
+        setup-command: ''
+        command: docker build --tag syslogs-image .
+        timeout: 2
+        max-score: 20
+    - name: Run the containerized solution
+      id: run-the-containerized-solution
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Run the containerized solution
+        setup-command: ''
+        command: docker run --rm syslogs-image
+        input: ''
+        expected-output: systemd[1]
+        comparison-method: contains
+        timeout: 2
+        max-score: 20
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        LIST-RUNNING-CONTAINERS_RESULTS: "${{steps.list-running-containers.outputs.result}}"
+        LIST-ALL-CONTAINERS_RESULTS: "${{steps.list-all-containers.outputs.result}}"
+        FILTER-AND-SORT-LOGS_RESULTS: "${{steps.filter-and-sort-logs.outputs.result}}"
+        BUILD-THE-DOCKERFILE_RESULTS: "${{steps.build-the-dockerfile.outputs.result}}"
+        RUN-THE-CONTAINERIZED-SOLUTION_RESULTS: "${{steps.run-the-containerized-solution.outputs.result}}"
+      with:
+        runners: list-running-containers,list-all-containers,filter-and-sort-logs,build-the-dockerfile,run-the-containerized-solution

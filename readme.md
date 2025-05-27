@@ -78,7 +78,6 @@ docker run -it --name syslogs ubuntu
 > The `--interactive` or `-i` option lets you [send input to the container through standard input](https://docs.docker.com/reference/cli/docker/container/run/#interactive).
 >
 > The `--tty` or `-t` option [connects your terminal to the I/O streams of the container](https://docs.docker.com/reference/cli/docker/container/run/#tty).
-> # "--name" option gives the container a name, in this case "syslogs".
 >
 > The --name flag [lets you specify a custom identifier for a container](https://docs.docker.com/reference/cli/docker/container/run/#name).
 
@@ -96,6 +95,8 @@ root@19fdcbb2a4f6:/#
 
 You can now interact with the container as if it were a regular Linux system. The command prompt indicates that you are logged in as the `root` user inside the container, which is the default user for many Docker images. Using the `root` user inside a container is common, as it allows you to install packages and run commands without restrictions and without the `sudo` command. However, be cautious when running commands as `root`.
 
+> [!NOTE]
+> This exercise will be graded automatically, and because of the automated grading, you must use the container name `syslogs`, which is also used in the instructions.
 
 ## Part 2: list, stop and start containers
 
