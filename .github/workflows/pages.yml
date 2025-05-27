@@ -1,0 +1,55 @@
+name: Publish syslog.txt to GitHub Pages
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'   # Monthly on the 1st at 00:00 UTC
+  workflow_dispatch:      # Manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+
+    # only run this on the master copy (template) of the exercise
+    if: ${{ github.event.repository.is_template }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Copy syslog.txt to dist
+        run: cp .github/syslog.txt dist/
+
+      - name: Update current date in syslog.txt
+        run: |
+          TODAY="$(date +'%Y-%m-%d')"
+          sed -i "s/2026-01-01/$TODAY/g" dist/syslog.txt
+
+  # see https://github.com/actions/deploy-pages
+  deploy:
+    runs-on: ubuntu-latest
+
+    needs: build
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    steps:
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './dist'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
