@@ -91,12 +91,15 @@ Digest: sha256:6015f66923d7afbc53558d7ccffd325d43b4e249f41a6e93eef074c9505d2233
 Status: Downloaded newer image for ubuntu:latest
 
 root@19fdcbb2a4f6:/#
+
+(the hash values will be different on your system)
 ```
 
 You can now interact with the container as if it were a regular Linux system. The command prompt indicates that you are logged in as the `root` user inside the container, which is the default user for many Docker images. Using the `root` user inside a container is common, as it allows you to install packages and run commands without restrictions and without the `sudo` command. However, be cautious when running commands as `root`.
 
 > [!NOTE]
 > This exercise will be graded automatically, and because of the automated grading, you must use the container name `syslogs`, which is also used in the instructions.
+
 
 ## Part 2: list, stop and start containers
 
@@ -261,13 +264,17 @@ docker build --tag syslogs-image .
 docker run --rm syslogs-image
 ```
 
-Now, when you run your image, it will automatically download the log file, filter the CRITICAL messages, and sort them. The output will be printed to the terminal and the container will exit after the script has finished. If you want to access the terminal of the container, you can run the image with the `-it` options and specify to run the `bash` shell instead of the script that was specified in the `CMD` instruction of the Dockerfile:
+Above, the `docker run --rm syslogs-image` will create and start a new container with the previously built image. When started, the container will automatically download the log file, filter the CRITICAL messages, and sort them. The output will be printed to the terminal and the container will exit after the script has finished.
+
+We could also specify a name for this container, but it is not necessary, as we only want to run the process once. The `--rm` option will automatically remove the container after it exits, which is useful for one-off tasks like this, and prevents the accumulation of stopped containers in your system. If you want to keep the container after it exits, you can omit the `--rm` option and specify a name to identify the container later.
+
+If you want to access the terminal of the container for debugging or other purposes, you can run the container with an interactive shell with the `-it` options. Specify to run the `bash` shell instead of the script that was specified in the `CMD` instruction of the Dockerfile by adding `bash` at the end of the command:
 
 ```bash
 docker run --rm -it syslogs-image bash
 ```
 
-Add and commit your changes to the `Dockerfile` to your repository. You could also push the image to a Docker registry, such as [Docker Hub](https://hub.docker.com/) or [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry), if you want to share it with others or use it in other projects.
+Finally, add and commit your changes to the `Dockerfile` to your repository. You could also push the image to a Docker registry, such as [Docker Hub](https://hub.docker.com/) or [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry), if you want to share it with others or use it in other projects.
 
 
 ## Submitting your solution
