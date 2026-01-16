@@ -21,7 +21,7 @@ jobs:
       with:
         test-name: List running containers
         setup-command: ''
-        command: cat list-running-containers.txt
+        command: cat list-running-containers.txt | tr -cd '[:print:]\n'
         input: ''
         expected-output: syslogs
         comparison-method: contains
@@ -33,7 +33,7 @@ jobs:
       with:
         test-name: List all containers
         setup-command: ''
-        command: cat list-all-containers.txt
+        command: cat list-all-containers.txt | tr -cd '[:print:]\n'
         input: ''
         expected-output: syslogs
         comparison-method: contains
@@ -45,7 +45,7 @@ jobs:
       with:
         test-name: Filter and sort logs
         setup-command: ''
-        command: cat syslog-critical.txt
+        command: cat syslog-critical.txt | tr -cd '[:print:]\n'
         input: ''
         expected-output: systemd[1]
         comparison-method: contains

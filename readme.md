@@ -185,7 +185,7 @@ apt install -y curl
 ```
 
 > [!NOTE]
-> Unlike traditional Ubuntu installations, the default Ubuntu image uses `root` as the default user, there is no need to use or include the `sudo` command in the image.
+> Unlike traditional Ubuntu installations, the default Ubuntu image uses `root` as the default user. Therefore, there is no need to use or include the `sudo` command.
 
 Now that you have `curl` installed, you can use it to download the log file from the internet. Run the following command inside the container:
 
